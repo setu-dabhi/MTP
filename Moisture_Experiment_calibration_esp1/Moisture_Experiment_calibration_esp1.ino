@@ -13,11 +13,8 @@ TwoWire I2Cone = TwoWire(0);
 // Instantiate Wire for generic use at 100kHz
 TwoWire I2Ctwo = TwoWire(1);
 
-// Set dht12 i2c comunication with second Wire using 21 22 as SDA SCL
+
 DHT12 dht12(&I2Ctwo);
-//DHT12 dht12(&I2Ctwo, 21,22);
-//DHT12 dht12(&I2Ctwo, 0x5C);
-//DHT12 dht12(&I2Ctwo, 21,22,0x5C);
 
 void setup()
 {
