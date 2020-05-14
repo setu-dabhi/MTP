@@ -2,10 +2,6 @@
  *  https://www.mischianti.org/2019/01/01/dht12-library-en/
  *
  *
- * DHT12      ----- esp32
- * SDA        ----- 21
- * SCL        ----- 22
- *
  */
 
 #include "Arduino.h"
